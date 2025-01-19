@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-
+/* Home Pahe start */
 /* nav bar start */
 .nav {
   display: flex;
@@ -54,15 +54,14 @@ a {
 
 /* container start */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 10px solid black;
-  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+
   gap: 5px;
+  margin-top: 10px;
 }
 .card-container {
-  /* margin: 5px; */
   border: 10px solid black;
   width: 25vw;
   height: 50vh;
@@ -79,3 +78,79 @@ a {
   padding: 5px;
 }
 /* container end */
+
+/* footer start */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 20vh;
+  background-color: rgb(202, 165, 165);
+  text-align: justify;
+  margin-top: 10px;
+}
+.footer-text {
+  border-right: 1px solid black;
+  text-align: center;
+  width: 20%;
+}
+/* footer end */
+
+/* Home Page End  */
+
+/*  Log In Start */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  margin: 10px;
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  width: 30vw;
+  background-color: rgb(186, 227, 228);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-form {
+  height: 3vh;
+  width: 50%;
+}
+.gender-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-login {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 5vh;
+  width: 20%;
+  background-color: rgb(200, 183, 215);
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: rgb(127, 137, 169);
+  cursor: pointer;
+}
+
+/* LogIn End  */
